@@ -1,0 +1,89 @@
+body {
+  margin: 0px;
+}
+.btn-primary {
+  font-size: var(--font-size-base);
+  color: white;
+  background-color: #96af50;
+}
+button {
+  padding: var(--space-xs) var(--space-m);
+}
+.fill-parent {
+  width: 100%;
+  box-sizing: border-box;
+}
+.font-size-m {
+  font-size: var(--font-size-m);
+}
+.font-size-l {
+  font-size: var(--font-size-l);
+}
+.header {
+  display: flex;
+  /* padding: var(--space-s); */
+  background: var(--header-color);
+  border-bottom: solid;
+  height: var(--header-size);
+  align-items: center;
+  border-width: thin;
+  border-color: var(--color-neutral-2);
+  padding-left: var(--space-s);
+  position: sticky;
+  z-index: 1;
+}
+.header .logo {
+  max-height: var(--header-size);
+}
+.header-links {
+  flex: 1;
+  text-align: right;
+}
+.header-title {
+  margin-left: var(--space-xs);
+}
+
+.link {
+  padding-left: var(--space-s);
+  padding-right: var(--space-s);
+}
+.main-content {
+  margin-top: var(--header-size);
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--color-neutral);
+}
+.main-content div,
+.main-content input,
+.main-content .btn-primary {
+  border-radius: 10px;
+}
+.padding-bottom-s {
+  padding-bottom: var(--space-s);
+}
+
+.text-align-center {
+  text-align: center;
+}
+:root {
+  --space-xs: 8px;
+  --space-s: 16px;
+  --space-base: 24px;
+  --space-m: 32px;
+  --space-l: 40px;
+  --space-xl: 48px;
+  --font-size-s: 0.8rem;
+  --font-size-base: 1rem;
+  --font-size-m: 1.2rem;
+  --font-size-l: 1.4rem;
+  --header-color: #f1f3f5;
+  --header-size: 56px;
+  --color-neutral: #f1f3f5;
+  --color-neutral-2: #adb5bd;
+}
