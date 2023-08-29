@@ -1,8 +1,13 @@
 EcommerceApp Test User
   username: jestrada
   password: password
+
 BackOffice Link
   https://personal-aswbdmxa.outsystemscloud.com/EcommerceBackOffice
+
 BackOffice user
   username: admin
   password: password
+
+API Documentation
+  https://personal-aswbdmxa.outsystemscloud.com/Ecommerce_API/rest/Account/
